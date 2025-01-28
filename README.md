@@ -8,3 +8,6 @@ Animal Crossing background music player for XBMC4Xbox.
 - Copy all of the files to "Q:\scripts\script.doubutsu"
 - Run and enjoy!
 - (Optional) If you want to run this automatically on startup, add "Q:\scripts\script.doubutsu\default.py" to "autoexec.py" in your "scripts" folder!
+
+# TODO
+- Set different audio source depending on season.
