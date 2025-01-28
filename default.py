@@ -4,7 +4,7 @@ import os
 import time
 
 # Path to the directory containing your audio files
-AUDIO_DIR = "Q:/scripts/script.doubutsu/audio"
+AUDIO_DIR = "Q:/scripts/Doubutsu/audio"
 
 def get_current_hour():
     """Get the current hour in 12-hour format without leading zero."""
