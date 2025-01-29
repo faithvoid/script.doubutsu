@@ -1,0 +1,1 @@
+Q:\scripts\Doubutsu\default.py
