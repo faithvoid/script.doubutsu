@@ -3,6 +3,8 @@ Animal Crossing background music player for XBMC4Xbox.
 
 ![icon](icon.png)
 
+For a stripped-down version that only plays one track of your choosing, check out [BGMPlayer](https://github.com/faithvoid/script.bgmplayer)! 
+
 # Installation:
 - Download & extract the latest release .zip
 - Download the Animal Crossing soundtrack of your choice (not included here, I have a healthy fear of Nintendo's lawyers)
