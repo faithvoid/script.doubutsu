@@ -1,5 +1,5 @@
 # Doubutsu
-Animal Crossing background music player for XBMC4Xbox. 
+Animal Crossing inspired background music player for XBMC4Xbox. 
 
 ![icon](icon.png)
 
