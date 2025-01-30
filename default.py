@@ -37,10 +37,13 @@ def main():
         if current_hour != last_hour:
             last_hour = current_hour
             audio_file = get_audio_file(current_hour)
-            if os.path.exists(audio_file):
-                play_audio(audio_file, last_hour)
-            else:
-                xbmc.log("Audio file not found: {}".format(audio_file), xbmc.LOGERROR)
+            # If the hourly file doesn't exist, default to "bg.mp3"
+            if not os.path.exists(audio_file):
+                audio_file = os.path.join(AUDIO_DIR, "bg.mp3")
+                if not os.path.exists(audio_file):
+                    xbmc.log("Default audio file not found: {}".format(audio_file), xbmc.LOGERROR)
+                    continue  # Skip playback if neither file exists
+            play_audio(audio_file, last_hour)
         xbmc.sleep(1000)  # Sleep for 1 second before checking the time again
 
 if __name__ == "__main__":
