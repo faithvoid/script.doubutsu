@@ -1,0 +1,14 @@
+<addon id="script.doubutsu" name="Doubutsu" version="1.0.0" provider-name="faithvoid">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>audio</provides>
+        <cache>no</cache>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Animal Crossing style music player for XBMC4Xbox!</summary>
+        <description>Animal Crossing style music player for XBMC4Xbox!</description>
+        <platform>xbox</platform>
+    </extension>
+</addon>
